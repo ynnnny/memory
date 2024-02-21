@@ -1,0 +1,207 @@
+.commonMemory{
+    height: 93.1vh;
+    background: linear-gradient(254deg, #CCE9E6 0%, #AED5C9 100%);
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+    opacity: 1;
+}
+
+.duorenMemory{
+    position: fixed;
+    left: 48%;
+    top:12.5vh;
+    height: 18vh;
+    width: 48vw;
+    background: #e8f4eb;
+    border-radius: 20px;
+}
+
+.zu81{
+    position: fixed;
+    width: 6vh;
+    height: 1.5vh;
+    left: 30%;
+    top:8.5vh;
+}
+
+.zu83{
+    position: fixed;
+    width: 2.5vh;
+    height: 1vh;
+    left: 30%;
+    top: 13vh;
+}
+
+.zu85{
+    position: relative;
+    left: 8%;
+    top: 15%;
+    width: 40vw;
+    height: 5vh;
+}
+
+.bluePin{
+    width: 6vw;
+    height: 6vw;
+    background: rgba(111, 182, 191, 0.60);
+    border-radius: 3vw;
+    position: relative;
+    top:5%;
+    left: 21vw;
+}
+
+.multi{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 0.5vw;
+    font-size: 5vw;
+    left: 13vw;
+    top:3.5vh;
+}
+
+.paopao1{
+    width: 9vh;
+    height: 9vh;
+    position: relative;
+    left: 5%;
+}
+
+.zu70{
+    width: 8vh;
+    height: 8vh;
+}
+
+.zu78{
+    position: relative;
+    top:-6vh;
+    left: 1.5vh;
+    width: 4vh;
+    height: 2vh;
+}
+
+.paopao2{
+    position: relative;
+    left: 20%;
+    top:-2vh;
+    width: 13vh;
+    height: 13vh;
+}
+
+.paopaoImage{
+    height: 13vh;
+    width: 13vh;
+    transform: rotate(270deg);
+}
+
+.zu77{
+    position: relative;
+    top: -9vh;
+    left: 2vh;
+    width: 8vh;
+    height: 4.5vh;
+}
+
+.paopao3{
+    width: 6vh;
+    height: 6vh;
+    position: fixed;
+    top:17vh;
+    left: 2%;
+}
+
+.zu71{
+    width: 11.5vh;
+    height: 11.5vh;
+    position: fixed;
+    left: 48%;
+    top: 31vh;
+}
+
+.memoryOne{
+    width: 28vh;
+    height: 28vh;
+    position: fixed;
+    left: -10%;
+    top:25vh;
+}
+
+.zu64{
+    width: 26vh;
+    height: 26vh;
+    position: relative;
+}
+
+.memory Text{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3vh;
+    letter-spacing: 0.5vw;
+    color: rgba(136, 136, 136, 1);
+    opacity: 0.9;
+}
+
+.memory{
+    height: 50vh;
+}
+
+.memoryOne Text{
+    position: relative;
+    left: 25%;
+    top:-14.8vh;
+}
+
+.memoryTwo{
+    width: 18vh;
+    height: 18vh;
+    position: fixed;
+    left: 28%;
+    top: 49vh;
+}
+
+.zu145{
+    height: 15vh;
+    width: 15vh;
+}
+
+.memoryTwo Text{
+    font-size: 2.5vh;
+    position: relative;
+    left: 15%;
+    top:-9.2vh;
+}
+
+
+.zu71memory{
+    width: 36vh;
+    height: 36vh;
+}
+
+.memoryThree{
+    width: 40vh;
+    height: 40vh;
+    position: fixed;
+    top: 34vh;
+    left: 50%;
+}
+
+.memoryThree Text{
+    position: relative;
+    left: 30%;
+    top: -20.5vh;
+}
+
+.memoryFour{
+    position: fixed;
+    top: 55vh;
+    left: -30%;
+}
+
+.paomemory{
+    width: 48vh;
+    height: 48vh;
+}
+
+.memoryFour Text{
+    position: relative;
+    top:-23vh;
+    left: -50%;
+}

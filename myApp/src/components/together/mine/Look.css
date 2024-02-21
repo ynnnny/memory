@@ -1,0 +1,23 @@
+.shuzhi{
+    height: 80vh;
+    width: 95vw;
+    position: relative;
+    left: 5%;
+}
+
+.cloudOne{
+    position: fixed;
+    left: 12%;
+    top:68.5vh;
+    width: 54vw;
+    height: 11.5vw;
+    opacity: 1;
+}
+
+.cloudTwo{
+    position: fixed;
+    width: 35vw;
+    top:43vh;
+    left: 60%;
+    height: 13vw;
+}
