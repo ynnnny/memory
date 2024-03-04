@@ -4,18 +4,24 @@ import jiahaoImage from '../../../assets/mine/加号@3x.png';
 import './Mine.css'
 import Look from './Look';
 import Topic from './Topic';
+import Taro from '@tarojs/taro';
 
 
 export default function Mine() {
 
-  const [mycurrent,setMycurrent] = useState(0);
+  const [mycurrent,setMycurrent] = useState(1);
+  const [looknumber,setLooknumber] = useState(-1);
 
   const changeMycurrent = (index) =>{
     setMycurrent(index);
+    setLooknumber(-1);
   }
 
   const addMoreMemory = ()=>{
     console.log("添加记忆");
+    Taro.navigateTo({
+      url: '/pages/mypublish/index'
+    })
   }
 
   return (
@@ -35,7 +41,7 @@ export default function Mine() {
           </View>
         </View>
 
-        {mycurrent === 0 && <Look/>}
+        {mycurrent === 0 && <Look looknumber={looknumber} setLooknumber={setLooknumber}/>}
         {mycurrent === 1 && <Topic/>}
 
       </View>

@@ -1,0 +1,31 @@
+.topicnavber{
+    height: 6vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    line-height: 6vh;
+    letter-spacing: 0.5vw;
+    font-size: 3vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.zu119{
+    width: 6vh;
+    height: 6vh;
+    position: absolute;
+    top: 0.3vh;
+    left: 3%;
+}
+
+.lajitong{
+    width: 6vh;
+    height: 6vh;
+    left: 85%;
+    top: 0.3vh;
+    position: absolute;
+}
+

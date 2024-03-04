@@ -1,5 +1,10 @@
 .topic{
-    column-count: 2;
+    width: 100vw;
+    height: 82.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    word-wrap: break-word;
 }
 
 .topic view{

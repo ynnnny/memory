@@ -1,0 +1,40 @@
+.juxing61{
+    width: 100%;
+    height: 6vh;
+}
+
+.zu120{
+    width: 5.5vh;
+    height: 5.5vh;
+    position: absolute;
+    top: 0.8vh;
+    left: 2%;
+}
+
+.fabu{
+    position: absolute;
+    width: 5.5vh;
+    height: 5.5vh;
+    top: 0.7vh;
+    left: 15%;
+}
+
+.memoryNavbar Text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5vh;
+    color: rgba(54, 54, 54, 0.7);
+    line-height: 6vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 0.5vh;
+    font-weight: 800;
+}
+
+.rubbish{
+    height: 5.5vh;
+    width: 5.5vh;
+    position: absolute;
+    left: 85%;
+    top: 0.7vh;
+}

@@ -10,11 +10,26 @@
     opacity: 1;
 }
 
-.centerlogo{
-    position: relative;
+.toolMemory Image{
     width: 5vh;
     height: 5vh;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top:2vh;
+}
+
+.centerlogo{
+    top:2.5vh;
+}
+
+.search{
+    top: 3vh;
+}
+
+.foot{
+    top: 3.5vh;
+}
+
+.publishCommon{
+    top: 4vh;
 }

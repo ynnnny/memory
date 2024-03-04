@@ -1,0 +1,29 @@
+.publish{
+    opacity: 0.5;
+}
+
+.oneNavber{
+    height: 6vh;
+    width: 90vw;
+    background: #FFFFFF;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    line-height: 6vh;
+    z-index: 99999;
+}
+
+
+
+.zu169{
+    position: relative;
+    top: 1vh;
+    width: 5vh;
+    height: 5vh;
+}
+
+.oneNavber View{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vh;
+    letter-spacing: 1vw;
+}

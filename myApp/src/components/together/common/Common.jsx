@@ -9,20 +9,11 @@ import zu71Image from '../../../assets/common/组 71@2x.png'
 import zu81Image from '../../../assets/common/组 81@2x.png'
 import zu83Image from '../../../assets/common/组 83@2x.png'
 import zu144Image from '../../../assets/common/组 144@2x.png'
-import zu64Image from '../../../assets/common/组 64@2x.png'
-import zu145Image from '../../../assets/common/组 145@2x.png'
 import './Common.css'
 import ToolMemory from './ToolMemory'
-import Taro from '@tarojs/taro'
+import ShowQipao from './ShowQipao'
 
 export default function Common() {
-
-  const lookMemory = () =>{
-    console.log('memory');
-    Taro.navigateTo({
-      url: '/pages/qipao/index',
-    });
-  }
 
   const multiMemory = ()=>{
     console.log("多人记忆");
@@ -53,25 +44,10 @@ export default function Common() {
               </View>
                 <Image className='paopao3' src={zu144Image}></Image>
                 <Image className='zu71' src={zu71Image}></Image>
-              <View className='memory'>
-                <View className='memoryOne'>
-                  <Image className='zu64' src={zu64Image}></Image>
-                  <Text onClick={()=>lookMemory()} className='oneDate'>24.1.22</Text>
-                </View>
-                <View className='memoryTwo'>
-                  <Image className='zu145' src={zu145Image}></Image>
-                  <Text onClick={()=>lookMemory()} className='twoDate'>24.12.24</Text>
-                </View>
-                <View className='memoryThree'>
-                  <Image className='zu71memory' src={zu71Image}></Image>
-                  <Text onClick={()=>lookMemory()} className='threeDate'>24.1.28</Text>
-                </View>
-                <View className='memoryFour'>
-                  <Image className='paomemory' src={paopaoImage}></Image>
-                  <Text onClick={()=>lookMemory()} className='fourDate'>24.15.86</Text>
-                </View>
               </View>
-            </View>
+              <View className='memory'>
+                <ShowQipao/>
+              </View>
             <ToolMemory/>
         </View>
     </>
